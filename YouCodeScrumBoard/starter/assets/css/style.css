@@ -1,0 +1,42 @@
+
+
+.pace {
+    display: none;
+}
+
+.main-style {
+    min-height: 100vh;
+    background: url(../img/cover/cover-scrum-board.png) no-repeat fixed;
+    background-size: 360px;
+    background-position: right bottom;
+}
+
+#modal-task {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    display: none; 
+    z-index: 1050; 
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 180%;
+    max-width: 500px;
+}
+
+
+#modal-task.show {
+    display: block;
+}
+
+.btn-danger {
+    color: BLACK;
+    background-color: #7b7171;
+    border-color: #7b7171;
+}
